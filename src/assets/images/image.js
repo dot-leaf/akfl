@@ -1,1 +1,1 @@
-export { default as logo} from '../images/logo.svg';
+export {default as banner } from '../images/banner.jpg';

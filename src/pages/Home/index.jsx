@@ -1,11 +1,13 @@
 import React from 'react'
-import HeroSection from './Features/HeroSection'
+import HeroBanner from './features/HeroBanner'
+import FormDonation from './features/FormDonation'
 
 const Home = () => {
   return (
-    <>
-    <HeroSection />
-    </>
+    <div>
+        <HeroBanner/>
+        <FormDonation/>
+    </div>
   )
 }
 

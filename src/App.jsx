@@ -1,21 +1,15 @@
-import React, { useEffect } from 'react'
-import AlkhidmatRoutes from './routes/alkhidmatRoutes'
+import { useEffect } from 'react';
+import AlkhidmatRoutes from './routes/AlkhidmatRoutes';
 
-const App = () => {
+function App() {
+  
   useEffect(() => {
-
     window.scrollTo({
       top: 0,
       behavior: "smooth", 
     });
-    
   }, [])
-
-  return (
-    <>
-    <AlkhidmatRoutes />
-      </>
-  )
+  return <AlkhidmatRoutes />;
 }
 
-export default App
+export default App;
